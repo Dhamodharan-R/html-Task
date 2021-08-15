@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task</title>
+    <style>
+        
+        .contactus{
+            background-color: cyan;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Question 1 : Fix the bugs in below snippet</h3>
+ 
+    <h3>Answer</h3>
+    <p>
+        &lt;html lang="en"&gt;<br>
+        &lt;head&gt;<br>
+        &lt;title&gt;Document&lt;/title&gt;<br>
+        &lt;/head&gt;<br>
+        &lt;body&gt;<br>
+               &lt;p&gt; guvi &lt;p&gt; <br>
+                &lt;div&gt;<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                &lt;/div&gt; <br>
+                &lt;div&gt; <br>
+                        Guvi Geek Network <br>
+                        &lt;/div&gt; <br>
+                        &lt;/body&gt; <br>
+                        &lt;/html&gt;
+
+    </p>
+    <div class="contactus">
+        <h3>Question 2 : Design a contact us form with all fields as required. </h3>
+    
+        <h2>Contact us</h2>
+        <form action="">
+        <label for="name">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type='email' id="email" name="email" required><br><br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<input  type="submit">
+    
+        </form><br>
+
+    </div>
+
+    <h3>Question 3 : Use certain HTML elements to display the following in a HTML page.</h3>
+    <ul>
+        
+            <li>Programming Language
+                <ul >
+                    <li>Javascript
+                        <ol type="a">
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                        </ol>
+                    </li>
+                    <li>Python
+                        <ol type="a">
+                            <li>Django Framework</li>
+                            <li>Flask Framework</li>
+                        </ol>
+
+                    </li>
+                    <li>Java
+                        <ol type="a">
+                            <li>Spring</li>
+                            <li>Mavent</li>
+                            <li>Hibernate</li>
+                            
+                        </ol>
+                    </li>
+                </ul>
+
+            </li> 
+              
+                
+            <li>Database
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Cansandra</li>
+                </ul>
+            </li>
+    </ul>
+    <h3>Question 4 :Create an element that helps you to open the https://google.com in separate new tab.</h3>
+    <p>click this <a href="https://google.com" target="_blank" >GOOGLE</a></p>
+    <h3>Question 5 : In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+    </h3>
+    <p>Employee Type</p>
+    <input type='radio' id="Salaried" name ='employeetype'>
+    <label for="Salaried">Salaried </label><br>
+    
+    <input type='radio' id="own business" name ='employeetype'>
+    <label for="own business">Own business </label>
+    <h3>Question : In your, HTML page add the below line and Highlight it without using any CSS.</h3>
+    <p><mark>"HTML & CSS is awesome"</mark></p>
+    <h3>Health chart</h3>
+    <table>
+        <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting value</th>
+            <th>After Eating</th>
+        </tr>
+        <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>2 hours after eating</th>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    <div style="border: 2px solid black; width: 400px; margin-top: 1rem;">
+        <table>
+            <tr>
+                <th colspan="3" style="background-color: red;color: white;">Yes! I want to subscribe to Mag-O-Zine</th>
+            </tr>
+            <tr>
+                <td colspan="2"><Input type="text"></td>
+                <td><Input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="2">Firstname</td>
+                <td>Lastname</td>
+            </tr>
+            <tr>
+                <td colspan="3" ><Input type="text" style="width: 100%;" ></td>
+            </tr>
+            <tr>
+                <td colspan="3">Address</td>
+            </tr>
+            <tr>
+                <td>Subscribe for:</td>
+                <td><input type="checkbox" id="subs"><label for="subs">1 year($19.95)</label></td>
+                <td><input type="checkbox" id="subs"><label for="subs">2 years($35.00)</label></td>
+            </tr>
+            <tr>
+                <td colspan="3">Send me more information about:</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="checkbox" id="cz"><label for="cz">Computer Zine</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="checkbox" id="fz"><label for="fz">Fishing Zine</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="checkbox" id="coz"><label for="coz">Cat O Zine</label>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    
+</body>
+</html>
